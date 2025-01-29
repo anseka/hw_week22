@@ -1,0 +1,45 @@
+.hero-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.hero-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+	/* height: 350px;*/
+	width: 250px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+.hero-card img {
+	max-width: 100%;
+}
+
+.hero-card > div {
+	margin-top: auto;
+}
+
+span {
+	font-size: 24px;
+}
+
+.star {
+	font-size: 30px;
+	color: gray;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+.star-filled {
+	color: gold;
+}
+
+.star:hover {
+	color: orange;
+}
